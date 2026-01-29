@@ -33,7 +33,7 @@ Le projet suit les étapes suivantes :
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - Python  
 - Jupyter Notebook  
