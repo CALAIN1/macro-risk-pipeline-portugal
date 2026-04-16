@@ -1,12 +1,13 @@
-# Macro Risk Pipeline – Portugal 🇵🇹
+# Analyse macro-économique orientée risque – Portugal
 
 ##  Objectif du projet
 
-Ce projet vise à construire un **pipeline simple d’analyse macro-économique**, appliqué au Portugal, avec une **lecture orientée risque**.
+Ce mini-projet vise à analyser l’évolution d’indicateurs macroéconomiques (inflation et chômage) et leur interprétation dans une logique de risque.
 
-L’objectif est de montrer comment des **données publiques** peuvent être collectées, nettoyées et structurées afin de produire une analyse exploitable.
+À partir de données publiques Eurostat, l’objectif est de construire un jeu de données propre et exploitable, puis d’identifier les dynamiques économiques pouvant impacter le niveau de risque d’un pays (ici : le Portugal).
 
----
+Ce type d’analyse constitue une première étape dans les approches de risk management, notamment pour la surveillance macroéconomique ou la construction de scénarios de stress.
+
 
 ##  Données utilisées
 
@@ -19,7 +20,7 @@ Les données proviennent exclusivement de **sources publiques**, principalement 
 
 Les données sont utilisées à des fins **pédagogiques et analytiques**.
 
----
+
 
 ##  Étapes du pipeline
 
@@ -31,7 +32,7 @@ Le projet suit les étapes suivantes :
 - Analyse exploratoire avec une approche orientée risque
 - Synthèse des résultats (logique reporting / Excel)
 
----
+
 
 ## Technologies utilisées
 
@@ -39,7 +40,7 @@ Le projet suit les étapes suivantes :
 - Jupyter Notebook  
 - Pandas / NumPy  
 
----
+
 
 ##  Structure du dépôt
 
@@ -47,13 +48,15 @@ Le projet suit les étapes suivantes :
 - `data_raw/` : données brutes
 - `.ipynb_checkpoints/` : fichiers temporaires Jupyter
 
----
+
 
 ##  Contexte du projet
 
-Ce projet a été réalisé dans un **objectif d’apprentissage et de pratique**, afin de consolider des bases en **analyse de données macro-économiques** et de comprendre leur utilisation dans une logique de **gestion du risque**.
+L’analyse met en évidence l’évolution conjointe du chômage et de l’inflation, indicateurs clés pour évaluer la situation macroéconomique.
 
----
+Dans un contexte de gestion des risques, ces dynamiques peuvent être utilisées pour détecter des signaux de détérioration économique et alimenter des analyses plus avancées (stress tests, modèles de risque de crédit, etc.).
+
+
 
 ##  Auteur
 
